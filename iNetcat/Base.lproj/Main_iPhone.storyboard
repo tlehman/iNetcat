@@ -47,6 +47,9 @@
                                 <state key="normal" title="Send">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="sendButtonPushed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="MjM-3P-7si"/>
+                                </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="IPR-2U-X49">
                                 <rect key="frame" x="26" y="93" width="274" height="128"/>
